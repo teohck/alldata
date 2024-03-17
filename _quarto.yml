@@ -10,6 +10,7 @@ website:
       - text: "Home"
         href: index.qmd
       - about.qmd
+      - hello.ipynb
       # - 404.qmd
   # sidebar:
   #   style: "floating"
