@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "KnowItOwl"
+  navbar:
+    background: "dark"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - about.qmd
+      # - 404.qmd
+  # sidebar:
+  #   style: "floating"
+  #   search: true
+  #   contents:
+  #     - section: "Basics"
+  #       contents:
+  #         - index.qmd
+  #         - about.qmd
+  #     - section: "Layout"
+  #       contents:
+  #         - index.qmd
+  #         - about.qmd
+  sidebar: true
+    # tools:
+    #   - icon: github
+    #     href: "https://github.com/teohck"
+      # - text: "More"
+      #   menu:
+      #   - about.qmd
+      #   - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
