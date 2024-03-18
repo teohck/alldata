@@ -14,15 +14,15 @@
     "text": "About this site\n\nHeader 1\n\n\nHeader 2\n\n\nHeader 3"
   },
   {
-    "objectID": "hello.html",
-    "href": "hello.html",
+    "objectID": "chapter1/hello.html",
+    "href": "chapter1/hello.html",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "hello.html#polar-axis",
-    "href": "hello.html#polar-axis",
+    "objectID": "chapter1/hello.html#polar-axis",
+    "href": "chapter1/hello.html#polar-axis",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
